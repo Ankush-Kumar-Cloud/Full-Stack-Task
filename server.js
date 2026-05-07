@@ -16,7 +16,13 @@ dotenv.config();
 const app = express();
 
 // middleware
-app.use(cors());
+app.use(cors({
+  origin:
+      "https://full-stack-task-frontend.vercel.app",
+    credentials: true,
+}));
+
+
 app.use(express.json());
 
 // DB
