@@ -1,64 +1,80 @@
-🚀 HackerNews Pro
+# 🚀 HackerNews Pro
 
 A modern full-stack Hacker News clone built using the MERN stack. This application fetches trending Hacker News stories, provides JWT-based authentication, allows users to bookmark stories, and features a premium responsive UI.
 
-🌐 Live Demo
-Frontend
+---
 
-Add your deployed Vercel URL here:
+# 🌐 Live Demo
 
+## Frontend
 https://your-frontend.vercel.app
-Backend
 
-Add your deployed Render URL here:
-
+## Backend
 https://your-backend.onrender.com
-✨ Features
-🔐 Authentication
-User Registration
-User Login
-JWT Authentication
-Logout Functionality
-Protected Routes
-📰 Hacker News Stories
-Fetch trending Hacker News stories
-Display story details
-Responsive story cards
-Smooth UI animations
-🔖 Bookmark System
-Add bookmarks
-Remove bookmarks
-Dedicated bookmarks page
-User-specific saved stories
-🎨 Premium UI
-Modern dark theme
-Glassmorphism design
-Responsive layout
-Framer Motion animations
-Toast notifications
-Professional navbar
-🛠️ Tech Stack
-Frontend
-React.js
-React Router DOM
-Tailwind CSS
-Axios
-Framer Motion
-React Hot Toast
-React Icons
-Vite
-Backend
-Node.js
-Express.js
-MongoDB
-Mongoose
-JWT Authentication
-bcryptjs
-CORS
-Web Scraping
-Cheerio
-📂 Project Structure
-Backend
+
+---
+
+# ✨ Features
+
+## 🔐 Authentication
+- User Registration
+- User Login
+- JWT Authentication
+- Logout Functionality
+- Protected Routes
+
+## 📰 Hacker News Stories
+- Fetch trending Hacker News stories
+- Display story details
+- Responsive story cards
+- Smooth UI animations
+
+## 🔖 Bookmark System
+- Add bookmarks
+- Remove bookmarks
+- Dedicated bookmarks page
+- User-specific saved stories
+
+## 🎨 Premium UI
+- Modern dark theme
+- Glassmorphism design
+- Responsive layout
+- Framer Motion animations
+- Toast notifications
+- Professional navbar
+
+---
+
+# 🛠️ Tech Stack
+
+## Frontend
+- React.js
+- React Router DOM
+- Tailwind CSS
+- Axios
+- Framer Motion
+- React Hot Toast
+- React Icons
+- Vite
+
+## Backend
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JWT Authentication
+- bcryptjs
+- CORS
+- Web Scraping
+- Cheerio
+
+---
+
+# 📂 Project Structure
+
+## Backend
+
+```bash
 backend/
 │
 ├── controllers/
@@ -107,11 +123,9 @@ Configure API URL
 src/services/api.js
 import axios from "axios";
 
-
 const API = axios.create({
   baseURL: "http://localhost:5000/api",
 });
-
 
 export default API;
 Start Frontend
@@ -122,27 +136,26 @@ Frontend runs on:
 http://localhost:5173
 🚀 Deployment
 Frontend Deployment
-Deployed using Vercel
+Vercel
 Backend Deployment
-Deployed using Render
+Render
 📸 Screenshots
 Home Page
 
-Add screenshot here.
+Add screenshot here
 
 Login Page
 
-Add screenshot here.
+Add screenshot here
 
 Bookmarks Page
 
-Add screenshot here.
+Add screenshot here
 
 🔥 Future Improvements
 Search functionality
 Pagination
-User profile section
-Dark/Light mode toggle
+Dark/light mode
 AI-powered recommendations
 Real-time updates
 👨‍💻 Author
