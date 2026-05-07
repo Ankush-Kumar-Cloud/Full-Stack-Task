@@ -7,10 +7,9 @@ A modern full-stack Hacker News clone built using the MERN stack. This applicati
 # 🌐 Live Demo
 
 ## Frontend
-https://your-frontend.vercel.app
-
+https://full-stack-task-frontend.vercel.app/
 ## Backend
-https://your-backend.onrender.com
+https://full-stack-task-backend.onrender.com
 
 ---
 
